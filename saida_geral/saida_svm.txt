@@ -1,0 +1,42 @@
+Loading data...
+Starting read from Train file...
+train.shape = (9100, 26)
+train_labels.shape = (9100, 1)
+Starting read from Test file...
+test.shape = (277, 26)
+test_labels.shape = (277, 1)
+grid.fit
+Fitting 3 folds for each of 90 candidates, totalling 270 fits
+[Parallel(n_jobs=-1)]: Done   1 jobs       | elapsed:  1.4min
+[Parallel(n_jobs=-1)]: Done  50 jobs       | elapsed: 43.0min
+[Parallel(n_jobs=-1)]: Done 200 jobs       | elapsed: 226.2min
+[Parallel(n_jobs=-1)]: Done 268 out of 270 | elapsed: 265.2min remaining:  2.0min
+[Parallel(n_jobs=-1)]: Done 270 out of 270 | elapsed: 266.3min finished
+{'kernel': 'rbf', 'C': 8192.0, 'gamma': 8.0}
+/usr/lib/python2.7/dist-packages/sklearn/svm/base.py:440: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+y = column_or_1d(y, warn=True)
+
+0.787003610108
+[[25  0  1  0  1  1  0  0  0]
+  [ 0 27  0  6  0  0  0  0  1]
+  [ 0  0 11  0  0  0  3  0  2]
+  [ 0  2  0 33  0  0  0  0  5]
+  [ 2  0  0  0 21  4  0  0  0]
+  [ 1  0  0  0  3 17  0  0  0]
+  [ 1  1  6  1  0  0 17  0  1]
+  [ 0  0  1  0  0  0  4 35  0]
+  [ 0  3  0  9  0  0  0  0 32]]
+[[  9.28668901e-01   8.59795475e-04   4.34553447e-04 ...,   5.32403414e-04
+    3.77337410e-05   4.11490241e-03]
+  [  3.19870596e-01   4.19681487e-03   7.81499942e-03 ...,   5.13690056e-03
+      2.30067836e-03   6.09222200e-03]
+  [  8.33472610e-01   6.36738328e-04   2.71859078e-02 ...,   2.32318354e-02
+      1.93519383e-04   1.40424375e-02]
+        ..., 
+  [  2.39274224e-06   1.03667969e-02   1.18473710e-05 ...,   1.34532951e-04
+       2.40444342e-07   7.39816040e-01]
+  [  9.25921259e-05   1.10586741e-02   5.01487659e-04 ...,   4.06637269e-04
+      4.61821013e-06   9.41181272e-01]
+  [  2.25475952e-02   7.41257425e-02   6.18740081e-03 ...,   1.33331639e-02
+      4.62172293e-03   3.24308903e-01]]
+

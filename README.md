@@ -27,15 +27,15 @@ Trabalho prático - Imagens de textura
 
 #### Classificadores:  
 > - classifiers/cross_validation.py =   
->   # Decision Tree ( tree.DecisionTreeClassifier() )  
->   # Gaussian Naive Bayes ( GaussianNB() )  
->   # KNN ( KNeighborsClassifier(n_neighbors=k) )  
->   # SVM ( svm.SVC(C=?, gamma=?, kernel='rbf', probability=True) )  
->   # Perceptron ( linear_model.Perceptron() )  
->   # LDA ( LDA() )  
->   # Logistic Regression ( linear_model.LogisticRegression() )   
->    * ovr e multinomial  
+>     Decision Tree ( tree.DecisionTreeClassifier() )  
+>     Gaussian Naive Bayes ( GaussianNB() )  
+>     KNN ( KNeighborsClassifier(n_neighbors=k) )  
+>     SVM ( svm.SVC(C=?, gamma=?, kernel='rbf', probability=True) )  
+>     Perceptron ( linear_model.Perceptron() )  
+>     LDA ( LDA() )  
+>     Logistic Regression ( linear_model.LogisticRegression() )   
+>       * ovr e multinomial  
 > - classifiers/cv_comb_ens.py =   
->   # 3 combinações  
->   # 3 ensembles ...  
+>     3 combinações  
+>     3 ensembles ...  
 
